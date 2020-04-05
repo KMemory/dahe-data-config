@@ -15,7 +15,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://dahe-dev7001.com:7001/eureka/
+      defaultZone: http://dahe7001.com:7001/eureka/,http://dahe7002.com:7002/eureka/,http://dahe7003.com:7003/eureka/
 
 ---
 
@@ -28,4 +28,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://dahe-test7001.com:7001/eureka/
+      defaultZone: http://dahe7001.com:7001/eureka/,http://dahe7002.com:7002/eureka/,http://dahe7003.com:7003/eureka/
